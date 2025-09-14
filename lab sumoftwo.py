@@ -2,8 +2,6 @@ from itertools import *
 # nums = [2,7,11,15]
 # target = 9
 
-nums = [3, 3] 
-target = 6
 def sumoftwo(nums, target):
     combs = list(combinations(nums, 2))
     sum_combs = [sum(i) for i in combs]
@@ -18,6 +16,7 @@ def sumoftwo(nums, target):
         return'impossible'
 
 print(sumoftwo([3, 3], 6))
+
 
 
 
